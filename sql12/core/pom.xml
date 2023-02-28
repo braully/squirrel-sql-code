@@ -20,6 +20,17 @@
     
     <build>
         <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <resource>
+                <filtering>false</filtering>
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.properties</include>
+
+                </includes>
+            </resource>
+        </resources>
     </build>
     
     <dependencies>
@@ -125,4 +136,5 @@
             <version>1.0.3</version>
         </dependency>
     </dependencies>
+    
 </project>
